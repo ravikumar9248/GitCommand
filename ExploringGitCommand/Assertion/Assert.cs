@@ -40,7 +40,7 @@ namespace ExploringGitCommand.Assertion
 
 		public static void ClearNUnitAssertions()
 		{
-			((IList<AssertionResult>)TestContext.CurrentContext.Result.Assertions).Clear();
+			//((IList<AssertionResult>)TestContext.CurrentContext.Result.Assertions).Clear();
 		}
 
 		private static bool CheckAndLogResults(string description, bool condition)
